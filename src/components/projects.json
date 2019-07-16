@@ -1,0 +1,32 @@
+[
+  {
+    "name": "HexToDec",
+    "plattform": "iOS",
+    "url": "",
+    "github": "https://github.com/KurzGedanke/HexToDec",
+    "description": "An App which converts hexadecimal IPs to decimal IPs.",
+    "tools": [
+      "React-Native"
+    ],
+    "license": "MIT",
+    "screenshot": ""
+  },
+  {
+    "name": "blog.kurzgedanke.me",
+    "plattform": "Web",
+    "url": "https://blog.kurzgedanke.me/",
+    "github": "https://github.com/KurzGedanke/kurz-hugo-v2",
+    "description": "An App which converts hexadecimal IPs to decimal IPs.",
+    "tools": [
+      "Hugo",
+      "Milligram",
+      "jQuery",
+      "Normalize.css",
+      "HTML",
+      "SCSS",
+      "JavaScript"
+    ],
+    "license": "MIT",
+    "screenshot": ""
+  }
+]

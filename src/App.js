@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header.js';
 import Professions from './components/Professions.js';
 import './components/css/App.css';
+import Projects from './components/Projects.js'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Header />
       </header>
       <Professions />
+      <Projects />
     </div>
   );
 }
