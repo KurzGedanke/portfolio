@@ -12,6 +12,23 @@
     "screenshot": ""
   },
   {
+    "name": "portfolio.kurzgedanke.me",
+    "plattform": "Web",
+    "url": "https://portfolio.kurzgedanke.me/",
+    "github": "",
+    "description": "My personal portfolio website",
+    "tools": [
+      "React",
+      "React-Snapshot",
+      "Normalize.css",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "license": "",
+    "screenshot": ""
+  },
+  {
     "name": "blog.kurzgedanke.me",
     "plattform": "Web",
     "url": "https://blog.kurzgedanke.me/",
@@ -25,6 +42,33 @@
       "HTML",
       "SCSS",
       "JavaScript"
+    ],
+    "license": "MIT",
+    "screenshot": ""
+  },
+  {
+    "name": "WhatTheDay",
+    "plattform": "Mastodon Bot",
+    "url": "https://botsin.space/@whattheday",
+    "github": "https://github.com/KurzGedanke/whatTheDay",
+    "description": "A mastodon bot which toots every 12 hours the current weekday, date and time.",
+    "tools": [
+      "Python 3.7",
+      "Mastodon.py",
+      "schedule.py"
+    ],
+    "license": "MIT",
+    "screenshot": ""
+  },
+  {
+    "name": "XKarchive",
+    "plattform": "Desktop",
+    "url": "",
+    "github": "https://github.com/KurzGedanke/XKarchive",
+    "description": "A python script which downloads XKCD Comics to archive them.",
+    "tools": [
+      "Python 3.7",
+      "requests.py"
     ],
     "license": "MIT",
     "screenshot": ""
