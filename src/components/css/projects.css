@@ -1,15 +1,62 @@
 .projects {
     display: grid;
+    margin-top: 100px
 }
 
 .project {
     display: flex;
     flex-direction: column;
-    border: 2px dotted black;
-    align-content: center;
+    border: 2px solid #00FF9C;
+    align-content: flex-start;
     padding: 0% 20% 0% 5%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .project-name {
     align-self: flex-start;
 }
+
+.project-plattform {
+    align-self: flex-start;
+    position: relative;
+    top: -30px;
+}
+
+.project-website {
+    align-self: flex-start;
+    position: relative;
+    top: -30px;
+}
+
+.project-github{
+    align-self: flex-start;
+    position: relative;
+    top: -25px;
+}
+
+.project-description{
+    align-self: flex-start;
+    text-align: left;
+    position: relative;
+    top: -25px;
+}
+
+.project-tools {
+    align-self: flex-end;
+    position: relative;
+    top: -25px;
+}
+
+.project-license {
+    align-self: flex-start;
+    position: relative;
+    top: -25px;
+}
+
+@media (max-width: 600px) {
+    .project {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+  }
