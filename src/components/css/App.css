@@ -16,6 +16,10 @@ li {
   list-style-type: none;
 }
 
+a {
+  color: #00FF9C;
+}
+
 .App {
   text-align: center;
   display: grid;

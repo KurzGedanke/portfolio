@@ -11,13 +11,17 @@ export default class Projects extends React.Component{
         const projects = this.project.map((project) => {
             return (
             <div className="project">
-                <h2>{project.name}</h2>
-                <span>{project.plattform}</span>
-                <a href={project.url}>Website</a>
-                <a href={project.github}>GitHub</a>
-                <span>{project.description}</span>
-                <span>{project.tools}</span>
-                <span>{project.license}</span>
+                <h2 className="project-name">{project.name}</h2>
+                <p className="project-plattform">{project.plattform}</p>
+                <a href={project.url} className="project-website">Website</a>
+                <a href={project.github} className="project-github">GitHub</a>
+                <p className="project-description">{project.description}</p>
+                <ul className="project-tools">
+                {project.tools.map((tool) => {
+                        return <li className="project-tool">{tool}</li>
+                    })}
+                </ul>
+                <p className="project-license">{project.license}</p>
             </div>
             )
         }
